@@ -1,13 +1,13 @@
 import { findBestMove } from "./main.js";
 
 const cross = Object.assign(new Image(), {
-  src: "./cross.svg",
+  src: "./svg/cross.svg",
   id: "icon",
   draggable: false,
 });
 
 const circle = Object.assign(new Image(), {
-  src: "./circle.svg",
+  src: "./svg/circle.svg",
   id: "icon",
   draggable: false,
 });
